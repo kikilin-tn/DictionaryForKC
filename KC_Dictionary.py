@@ -9,7 +9,6 @@ with open('output.txt', 'r',encoding = 'utf-8') as f:
     #print(result)
 
 KC_dic = result
-#KC_dic= {'カーフ':'刀痕','光量':'光量值'}
 
 while True:
   #print('Enter a JP word or enter q to quit')
@@ -41,14 +40,3 @@ with open('output.txt','w', encoding='utf-8') as fout:
             #print(dic)
         fout.write(dic)
     print(fout)
-
-#with open('output.txt', 'r', encoding='utf-8') as f:
-#    result = {}
-#    for line in f.readlines():
-#        line = line.strip()
-#        if not len(line):
-#            continue
-#        result[line.split(':')[0]] = line.split(':')[1]
-#    print(KC_dic)
-#
-#KC_dic = result
