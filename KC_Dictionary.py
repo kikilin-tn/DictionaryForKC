@@ -23,7 +23,7 @@ while True:
      for key,value in KC_dic.items():
          print(key + '的中文為' + value)
   else:
-    print(JP_word+' 這個字還沒有相對的中文，請輸入適當的中文')
+    print(JP_word+' 這個字還沒有相對的中文字，請輸入適當的中文')
     CH_word = input()
     KC_dic[JP_word] = CH_word
     KC_dic.update({JP_word:CH_word})
